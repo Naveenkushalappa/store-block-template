@@ -1,5 +1,17 @@
 {
   "countdown": {
     "component": "Countdown"
+  },
+  "customizedFooter": {
+    "component": "CustomFooter",
+    "props": {
+      "deviceType": "desktop"
+    }
+  },
+  "customizedFooterMobile": {
+    "component": "CustomFooter",
+    "props": {
+      "deviceType": "mobile"
+    }
   }
 }
