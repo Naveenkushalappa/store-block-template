@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 5%;
+}
+
+.section {
+    border-bottom: 1px solid #ddd;
+    padding: 5% ;
+}
+
+.label {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.linkList {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 8px;
+}
+
+.linkItem {
+    margin-bottom: 6px;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #000;
+}

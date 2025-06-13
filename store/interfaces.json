@@ -9,7 +9,7 @@
     }
   },
   "customizedFooterMobile": {
-    "component": "CustomFooter",
+    "component": "CustomFooterMobile",
     "props": {
       "deviceType": "mobile"
     }
