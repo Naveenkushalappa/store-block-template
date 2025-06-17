@@ -1,5 +1,8 @@
 {
   "countdown": {
     "component": "Countdown"
+  },
+  "megaMenu": {
+    "component": "MegaMenu"
   }
 }
